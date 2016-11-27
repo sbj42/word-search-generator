@@ -1,2 +1,6 @@
+.vscode
 src
 test
+tsconfig.json
+gulpfile.js
+node_modules
