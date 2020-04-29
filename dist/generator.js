@@ -1,5 +1,6 @@
 "use strict";
-var WordSearch = (function () {
+exports.__esModule = true;
+var WordSearch = /** @class */ (function () {
     function WordSearch(width, height, grid, words) {
         this.width = width;
         this.height = height;
@@ -21,6 +22,7 @@ var WordSearch = (function () {
     };
     return WordSearch;
 }());
+var defaultMinLength = 3;
 var defaultSize = 10;
 var effort = 10000;
 function generate(options) {
@@ -34,7 +36,7 @@ function generate(options) {
     if (options.diagonals == null)
         options.diagonals = true;
     if (options.minLength == null)
-        options.minLength = 3;
+        options.minLength = defaultMinLength;
     if (options.maxLength != null && options.maxLength < options.minLength)
         options.maxLength = options.minLength;
     if (options.width == null) {

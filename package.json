@@ -1,6 +1,6 @@
 {
   "name": "@sbj42/word-search-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A program to generate word search puzzles",
   "main": "dist/generator.js",
   "scripts": {
