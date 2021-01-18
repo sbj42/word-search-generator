@@ -1,6 +1,6 @@
 {
   "name": "@sbj42/word-search-generator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A program to generate word search puzzles",
   "main": "dist/generator.js",
   "scripts": {
@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/sbj42/maze-generator-core#readme",
   "devDependencies": {
-    "@types/node": "^13.13.4",
+    "@types/node": "^14.14.21",
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "typescript": "^3.8.3"
+    "typescript": "^4.1.3"
   }
 }

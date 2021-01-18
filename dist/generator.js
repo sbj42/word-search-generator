@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.generate = void 0;
 var WordSearch = /** @class */ (function () {
     function WordSearch(width, height, grid, words) {
         this.width = width;
